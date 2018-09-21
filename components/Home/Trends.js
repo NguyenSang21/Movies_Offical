@@ -16,13 +16,13 @@ export default class Trends extends Component {
           });
     }
 
-    async componentDidMount() {
-        const result = await fetchData._getData_13()
-        this.setState({ data: result })
-    }
+    // async componentDidMount() {
+    //     const result = await fetchData._getData_13()
+    //     this.setState({ data: result })
+    // }
 
     render() {
-        const { data } = this.state
+        const { data } = this.props
         if(!data || data.length === 0)
         {
             return <div className="text-center">Loading fail ...</div>

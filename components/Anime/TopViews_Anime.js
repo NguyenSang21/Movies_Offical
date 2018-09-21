@@ -10,11 +10,11 @@ export default class TopViews_Anime extends Component {
         }
     }
 
-    async componentDidMount() {
-        const result = await fetchData._getData_3()
-        this.setState({ data: result })
-        console.log(result)
-    }
+    // async componentDidMount() {
+    //     const result = await fetchData._getData_3()
+    //     this.setState({ data: result })
+    //     console.log(result)
+    // }
 
     render() {
         const { data } = this.props

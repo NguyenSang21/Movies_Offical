@@ -15,11 +15,11 @@ export default class MainRomance extends Component {
         adonisObj.masonry('.adonis-masonry');
     }
 
-    async componentDidMount() {
-        const result = await fetchData._getData_1()
-        this.setState({ data: result, isLoading: true })
-        console.log(result)
-    }
+    // async componentDidMount() {
+    //     const result = await fetchData._getData_1()
+    //     this.setState({ data: result, isLoading: true })
+    //     console.log(result)
+    // }
 
     render() {
         const { data } = this.props

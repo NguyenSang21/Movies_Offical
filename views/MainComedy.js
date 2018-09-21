@@ -212,9 +212,9 @@ export default class MainComedy extends Component {
                                     </div>
                                     <div class="img-box-horizontal music-img-box h-g-bg h-d-shadow">
                                         <div class="img-box img-box-sm box-rounded-sm">
-                                            <img src="/static/assets/images/hot-song/hot-13.jpg" alt="" />
+                                            <img src="/static/assets/images/hot-song/hot-12.jpg" alt="" />
                                         </div>
-                                        <div class="des">
+                                        <div class="des">         
                                             <h6 class="title"><a href="#">You're A Mean One, Mr. Grinch</a></h6>
                                             <p class="sub-title"><a href="#">Darius Rucker</a></p>
                                         </div>
@@ -592,7 +592,7 @@ export default class MainComedy extends Component {
                                 <div class="item">
                                     <div class="music-img-box">
                                         <div class="img-box box-rounded-md">
-                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-10.jpg" data-2x="assets/images/new-releases/new-releases-10@2x.jpg" alt="" />
+                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-17.jpg" data-2x="assets/images/new-releases/new-releases-8.jpg" alt="" />
                                             <div class="hover-state">
                                                 <div class="absolute-bottom-left pl-e-20 pb-e-20">
                                                     <span class="pointer play-btn-dark round-btn"><i class="play-icon"></i></span>
@@ -609,7 +609,7 @@ export default class MainComedy extends Component {
                                 <div class="item">
                                     <div class="music-img-box">
                                         <div class="img-box box-rounded-md">
-                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-11.jpg" data-2x="assets/images/new-releases/new-releases-11@2x.jpg" alt="" />
+                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-18.jpg" data-2x="assets/images/new-releases/new-releases-11.jpg" alt="" />
                                             <div class="hover-state">
                                                 <div class="absolute-bottom-left pl-e-20 pb-e-20">
                                                     <span class="pointer play-btn-dark round-btn"><i class="play-icon"></i></span>
@@ -812,7 +812,7 @@ export default class MainComedy extends Component {
                                 <div class="item">
                                     <div class="music-img-box">
                                         <div class="img-box box-rounded-md">
-                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-12.jpg" data-2x="assets/images/new-releases/new-releases-12@2x.jpg" alt="" />
+                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-1.jpg" data-2x="assets/images/new-releases/new-releases-12@2x.jpg" alt="" />
                                             <div class="hover-state">
                                                 <div class="absolute-bottom-left pl-e-20 pb-e-20">
                                                     <span class="pointer play-btn-dark round-btn"><i class="play-icon"></i></span>
@@ -829,7 +829,7 @@ export default class MainComedy extends Component {
                                 <div class="item">
                                     <div class="music-img-box">
                                         <div class="img-box box-rounded-md">
-                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-13.jpg" data-2x="assets/images/new-releases/new-releases-13@2x.jpg" alt="" />
+                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-2.jpg" data-2x="assets/images/new-releases/new-releases-13@2x.jpg" alt="" />
                                             <div class="hover-state">
                                                 <div class="absolute-bottom-left pl-e-20 pb-e-20">
                                                     <span class="pointer play-btn-dark round-btn"><i class="play-icon"></i></span>
@@ -846,7 +846,7 @@ export default class MainComedy extends Component {
                                 <div class="item">
                                     <div class="music-img-box">
                                         <div class="img-box box-rounded-md">
-                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-14.jpg" data-2x="assets/images/new-releases/new-releases-14@2x.jpg" alt="" />
+                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-3.jpg" data-2x="assets/images/new-releases/new-releases-14@2x.jpg" alt="" />
                                             <div class="hover-state">
                                                 <div class="absolute-bottom-left pl-e-20 pb-e-20">
                                                     <span class="pointer play-btn-dark round-btn"><i class="play-icon"></i></span>
@@ -863,7 +863,7 @@ export default class MainComedy extends Component {
                                 <div class="item">
                                     <div class="music-img-box">
                                         <div class="img-box box-rounded-md">
-                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-15.jpg" data-2x="assets/images/new-releases/new-releases-15@2x.jpg" alt="" />
+                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-4.jpg" data-2x="assets/images/new-releases/new-releases-15@2x.jpg" alt="" />
                                             <div class="hover-state">
                                                 <div class="absolute-bottom-left pl-e-20 pb-e-20">
                                                     <span class="pointer play-btn-dark round-btn"><i class="play-icon"></i></span>
@@ -880,7 +880,7 @@ export default class MainComedy extends Component {
                                 <div class="item">
                                     <div class="music-img-box">
                                         <div class="img-box box-rounded-md">
-                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-16.jpg" data-2x="assets/images/new-releases/new-releases-16@2x.jpg" alt="" />
+                                            <img class="retina" src="/static/assets/images/new-releases/new-releases-5.jpg" data-2x="assets/images/new-releases/new-releases-16@2x.jpg" alt="" />
                                             <div class="hover-state">
                                                 <div class="absolute-bottom-left pl-e-20 pb-e-20">
                                                     <span class="pointer play-btn-dark round-btn"><i class="play-icon"></i></span>

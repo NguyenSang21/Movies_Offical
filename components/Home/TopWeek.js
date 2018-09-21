@@ -22,7 +22,7 @@ export default class TopWeek extends Component {
     // }
 
     render() {
-        const { data } = this.state
+        const { data } = this.props
         if (!data || data.length === 0) {
             return <div className="text-center">Loading fail...</div>
         }
