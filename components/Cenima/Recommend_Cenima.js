@@ -45,7 +45,7 @@ export default class Recommend_Cenima extends Component {
                             <a href="#" class="mb-4">Xem thêm<span class="adonis-icon pl-1 icon-arrow icon-1x"><svg xmlns="http://www.w3.org/2000/svg" version="1.1"><use xlinkHref="#icon-see-all-arrow-right" /></svg></span></a>
                         </div>
                     </div>
-                    <div class="adonis-carousel music-img-box-cont-sm viewport-animate" data-animation="slideUp" data-animation-item=".item" data-dots="yes" data-auto-width="yes" data-responsive-width="0:50%|400:33.33%|600:25%|800:20%|1000:16.667%|1200:14.285%|1400:12.5%|1600:10%">
+                    <div class="adonis-carousel music-img-box-cont-sm" data-animation-item=".item" data-dots="yes" data-auto-width="yes" data-responsive-width="0:50%|400:33.33%|600:25%|800:20%|1000:16.667%|1200:14.285%|1400:12.5%|1600:10%">
                         <div class="gutter-30">
                             <div class="owl-carousel owl-theme-adonis">
                                 <div class="item">

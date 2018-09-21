@@ -34,10 +34,9 @@ export default class Trends extends Component {
                     <div class="title-box">
                         <h4 class="title h3">Xu hướng</h4>
                     </div>
-                    <div class="adonis-carousel auto-fit-columns adonis-animate" data-animation="slideUp" data-animation-item=".music-img-box" data-item-width="460" data-item-max-width="480" data-auto-fit-items=".item" data-dots="yes" data-auto-width="yes">
+                    <div class="adonis-carousel auto-fit-columns" data-animation-item=".music-img-box" data-item-width="460" data-item-max-width="480" data-auto-fit-items=".item" data-dots="yes" data-auto-width="yes">
                         <div class="gutter-30">
                             <div class="owl-carousel owl-theme-adonis">
-    
                                 <div class="item">
                                     {!data[0] || data[0].length === 0 ? "" :
                                         <div  class="music-img-box">

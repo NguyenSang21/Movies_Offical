@@ -24,7 +24,7 @@ export default class CustomDocument extends Document {
             <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet"/>
             <link href="/static/assets/vendors/owl/css/owl.carousel.min.css" rel="stylesheet"/>
             <link href="/static/assets/vendors/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet"/>
-            <link href="/static/assets/css/adonis-dark.css" rel="stylesheet"/>
+            <link href="/static/assets/css/adonis.css" rel="stylesheet"/>
             <link href="/static/assets/css/responsive.css" rel="stylesheet"/>
 
             <script src="/static/assets/vendors/jquery/jquery.min.js"></script>

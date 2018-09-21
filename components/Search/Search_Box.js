@@ -273,7 +273,7 @@ export default class Search_Box extends Component {
                                     <div class="col-auto">
                                         <div class="img-box-horizontal music-img-box h-g-bg">
                                             <div class="img-box img-box-sm box-rounded-sm">
-                                                <img src="/static/assets/images/hot-song/hot-13.jpg" alt="" />
+                                                <img src="/static/assets/images/hot-song/hot-1.jpg" alt="" />
                                             </div>
                                             <div class="des">
                                                 <h6 class="title"><a href="#">You're A Mean One, Mr. Grinch</a></h6>

@@ -39,7 +39,7 @@ export default class Feature extends Component {
                             <a href="#" class="mb-4">See all <span class="adonis-icon pl-1 icon-arrow icon-1x"><svg xmlns="http://www.w3.org/2000/svg" version="1.1"><use xlinkHref="#icon-see-all-arrow-right" /></svg></span></a>
                         </div>
                     </div>
-                    <div class="adonis-carousel viewport-animate" data-animation="slideUp" data-animation-item=".owl-item.active" data-dots="yes" data-auto-width="yes" data-responsive-width="0:100%|300:50%|560:33%|820:25%|980:20%|1240:16.66%">
+                    <div class="adonis-carousel" data-animation-item=".owl-item.active" data-dots="yes" data-auto-width="yes" data-responsive-width="0:100%|300:50%|560:33%|820:25%|980:20%|1240:16.66%">
                         <div class="gutter-30">
                             <div class="owl-carousel owl-theme-adonis">
                                 <div class="item">

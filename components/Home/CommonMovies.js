@@ -43,7 +43,7 @@ export default class CommonMovies extends Component {
                             <h2 class="title h3-md">Tổng hợp</h2>
                         </div>
                     </div>
-                    <div class="adonis-carousel music-img-box-cont-sm viewport-animate  auto-fit-columns" data-auto-fit-items=".item" data-item-parent=".owl-carousel" data-item-width="336" data-item-max-width="630" data-animation="slideUp" data-animation-item=".item" data-auto-width="yes" data-loop="no" data-dots="yes">
+                    <div class="adonis-carousel music-img-box-cont-sm auto-fit-columns" data-auto-fit-items=".item" data-item-parent=".owl-carousel" data-item-width="336" data-item-max-width="630" data-animation-item=".item" data-auto-width="yes" data-loop="no" data-dots="yes">
                         <div class="gutter-30">
                             <div class="owl-carousel owl-theme-adonis">
                                 <div class="item">
