@@ -22,8 +22,8 @@ export default class MainRomance extends Component {
     }
 
     render() {
-        const { data, isLoading } = this.state
-        if (!isLoading) {
+        const { data } = this.props
+        if (!data || data.length === 0) {
             return <div class="text-center">Loading ...</div>
         }
         else {

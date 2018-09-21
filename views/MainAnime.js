@@ -9,9 +9,9 @@ export default class MainAnime extends Component {
     return (
       <div id="anime" class="inactive-hide">
         <CarouselTop_Anime />
-        <Recommend_Anime />
-        <TopViews_Anime />
-        <NewUpdate_Anime />
+        <Recommend_Anime data={this.props.Recommend_Anime}/>
+        <TopViews_Anime data={this.props.TopViews_Anime}/>
+        <NewUpdate_Anime data={this.props.NewUpdate_Anime}/>
       </div>
     )
   }
