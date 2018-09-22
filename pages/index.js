@@ -22,38 +22,40 @@ export default class Index extends Component {
           <Header />
           <div id="site-content">
             <div id="site-content-inner">
-              <div class="master-container-fluid">
-                <main id="main">
+              <main id="main">
+                <div class="master-container-fluid">
+
                   <div class="pt-4 pt-lg-5"></div>
                   <Tab_Menu />
                   <div class="tabs-content overflow-h">
-                    <MainHome CarouselTop = {this.props.data_6} 
-                              CommonMovies = {[this.props.data_4,this.props.data_5,this.props.data_4,this.props.data_5]}
-                              Feature = {this.props.data_2}
-                              NewDay = {[this.props.data_9,this.props.data_10,this.props.data_11,this.props.data_9,
-                                        this.props.data_10,this.props.data_11,this.props.data_9,this.props.data_10,this.props.data_11,this.props.data_9]}
-                              NewUpdate = {this.props.data_4}
-                              TopWeek = {this.props.data_1}
-                              Trends = {this.props.data_13}
-                              />
-                    <MainCenima CarouselTop_Cenima = {this.props.data_6} 
-                                NewUpdate_Cenima = {this.props.data_3}
-                                Recommend_Cenima = {[this.props.data_9,this.props.data_10,this.props.data_11,this.props.data_9,
-                                  this.props.data_10,this.props.data_11,this.props.data_9,this.props.data_10,this.props.data_11,this.props.data_9]}
-                                TopViews_Cenima = {this.props.data_4}/>
-                    <MainRomance data={this.props.data_1}/>
-                    <MainAnime NewUpdate_Anime={this.props.data_4} 
-                                Recommend_Anime={[this.props.data_4,this.props.data_5,this.props.data_4,this.props.data_5,this.props.data_4,this.props.data_5]}
-                                TopViews_Anime={this.props.data_3}/>
+                    <MainHome CarouselTop={this.props.data_6}
+                      CommonMovies={[this.props.data_4, this.props.data_5, this.props.data_4, this.props.data_5]}
+                      Feature={this.props.data_2}
+                      NewDay={[this.props.data_9, this.props.data_10, this.props.data_11, this.props.data_9,
+                      this.props.data_10, this.props.data_11, this.props.data_9, this.props.data_10, this.props.data_11, this.props.data_9]}
+                      NewUpdate={this.props.data_4}
+                      TopWeek={this.props.data_1}
+                      Trends={this.props.data_13}
+                    />
+                    <MainCenima CarouselTop_Cenima={this.props.data_6}
+                      NewUpdate_Cenima={this.props.data_3}
+                      Recommend_Cenima={[this.props.data_9, this.props.data_10, this.props.data_11, this.props.data_9,
+                      this.props.data_10, this.props.data_11, this.props.data_9, this.props.data_10, this.props.data_11, this.props.data_9]}
+                      TopViews_Cenima={this.props.data_4} />
+                    <MainRomance data={this.props.data_1} />
+                    <MainAnime NewUpdate_Anime={this.props.data_4}
+                      Recommend_Anime={[this.props.data_4, this.props.data_5, this.props.data_4, this.props.data_5, this.props.data_4, this.props.data_5]}
+                      TopViews_Anime={this.props.data_3} />
                     <MainComedy />
-                    <MainNews data={this.props.data_1}/>
+                    <MainNews data={this.props.data_1} />
                   </div>
-                </main>
-              </div>
+
+                </div>
+              </main>
             </div>
           </div>
           <Footer />
-          
+
         </div>
         <Search />
       </div>

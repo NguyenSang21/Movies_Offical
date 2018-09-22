@@ -1497,7 +1497,7 @@ Temp-styles.............Few temporary styles
   margin-left: -15px;
   margin-right: -15px; }
   .gutter-30 [class^="col-"], .gutter-30 .owl-item .item, .gutter-30 .swiper-slide {
-    /* padding-left: 15px; */
+    padding-left: 15px;
     padding-right: 15px; }
 
 @media (min-width: 768px) {
@@ -2208,8 +2208,7 @@ body {
   font-size: 13px;
   line-height: 1.6;
   color: #7d7d7d;
-  background: #F5F6F8; 
-}
+  background: #fff; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #252525;
@@ -5971,15 +5970,3 @@ select.form-control:focus::-ms-value {
   .sidebar-bg img {
     min-width: 100%;
     min-height: 100%; }
-
-    .video-block { margin-bottom: 15px; }
-    .video-block .video-list { margin-right: -15px; }
-    .video-block .video-list li { float: left; width: 33.333%; padding-right: 15px; }
-    .video-block .video-list li .box { background: #fff; padding: 0 15px 15px; }
-    .video-block .video-list li .box .video-detail { position: relative; margin-top: 15px; }
-    .video-block .video-list li .box .video-detail:before, .video-block .video-list li .box .video-detail:after { content: ""; position: absolute; top: 50%; left: 50%; z-index: 2; }
-    .video-block .video-list li .box .video-detail:before { float: left; width: 50px; height: 50px; margin-left: -25px; margin-top: -25px; border-radius: 25px; -moz-border-radius: 25px; -webkit-border-radius: 25px; border: 2px solid #fff; }
-    .video-block .video-list li .box .video-detail:after { margin-top: -11px; margin-left: -6px; width: 0; height: 0; border-style: solid; border-width: 11px 0 11px 16px; border-color: transparent transparent transparent #fff; }
-    .video-block .video-list li .box .video-detail a { display: block; }
-    .video-block .video-list li .box .video-detail a:before { content: ""; position: absolute; top: 50%; left: 50%; background: rgba(0, 0, 0, 0.6); float: left; width: 50px; height: 50px; margin-top: -25px; margin-left: -25px; border-radius: 25px; -moz-border-radius: 25px; -webkit-border-radius: 25px; }
-    .video-block .video-list li .box .video-detail:hover:before, .video-block .video-list li .box .video-detail:hover:after, .video-block .video-list li .box .video-detail:hover a:before { display: none; }
